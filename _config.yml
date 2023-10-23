@@ -1,0 +1,54 @@
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+#-------------------------------
+# General Site Settings
+title: Ganesh Prasad Shivakumar
+description: "Hi, this is Ganesh. I'm a grad student from Northeastern University. Prior to this, I worked for 6.5 years as a software engineer (search) in Unbxd Inc (Netcore), Amazon (Seattle) and Amazon Robotics (Boston). My portfolio focuses on the projects, research and experience I've had so far within the scope of Software development, Data science, AI/ML, Deep learning and NLP. Please use the links below to learn more about me!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# About Section
+subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
+location: "Boston, MA"
+resume_url: docs/resume.pdf
+avatar_image: /img/Gan.jpg
+
+#-------------------------------
+# Contact links
+linkedln: "https://www.linkedin.com/in/ganesh-prasad-s/"
+github: "www.github.com/ganeshparsads"
+
+paginate: 6
+paginate_path: "/page/:num"
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      read_time: true
+      share: false
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
